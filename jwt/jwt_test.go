@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/utils"
+	"github.com/gofiber/fiber/v3"
+	"github.com/gofiber/fiber/v3/utils"
 	"github.com/golang-jwt/jwt/v5"
 
-	jwtware "github.com/gofiber/contrib/jwt"
+	jwtware "github.com/hcpd-solutions/fiber-contrib/jwt"
 )
 
 type TestToken struct {
